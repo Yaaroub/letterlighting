@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: rgba(128, 128, 128, 0.25);
+  font-family: sans-serif;
+  letter-spacing: 30px;
+  font-size: 50px;
+}
+.l1 {
+  animation-duration: 0.5s;
+  animation-name: lighting;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes lighting {
+  0% {
+    color: gold;
+    text-shadow: 0px 0px 20px;
+  }
+}
+.l2 {
+  animation-delay: 0.1s;
+  animation-duration: 0.5s;
+  animation-name: lighting;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+.l3 {
+  animation-delay: 0.2s;
+
+  animation-duration: 0.5s;
+  animation-name: lighting;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.l4 {
+  animation-delay: 0.3s;
+
+  animation-duration: 0.5s;
+  animation-name: lighting;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.l5 {
+  animation-delay: 0.4s;
+
+  animation-duration: 0.5s;
+  animation-name: lighting;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.l6 {
+  animation-delay: 0.5s;
+
+  animation-duration: 0.5s;
+  animation-name: lighting;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.l7 {
+  animation-delay: 0.6s;
+
+  animation-duration: 0.5s;
+  animation-name: lighting;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.l8 {
+  animation-delay: 0.7s;
+
+  animation-duration: 0.5s;
+  animation-name: lighting;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
