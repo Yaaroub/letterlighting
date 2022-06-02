@@ -20,13 +20,15 @@ h1 span {
 @keyframes lighting {
   0% {
     color: rgba(128, 128, 128, 0.25);
+    text-shadow: none;
   }
   90%{
     color: rgba(128, 128, 128, 0.25);
+    text-shadow: none;
   }
   100%{
     color: gold;
-    text-shadow: 0px 0px 20px;
+    text-shadow: 0px 0px 20px orange;
   }
 }
 .l2 {
